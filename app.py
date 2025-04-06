@@ -185,7 +185,7 @@ with col1:
         bar_chart = alt.Chart(comparativo_df).mark_bar(size=40).encode(
             x = alt.X('Sentimento:N', title=None),
             y = alt.Y('Quantidade:Q', title='Quantidade de Tweets'),
-            color = alt.Color('Tipo:N', scale=alt.Scale(range=['#ff7356', '#00d182']), legend=alt.Legend(title="Tipo")),
+            color = alt.Color('Tipo:N', scale=alt.Scale(range=['#ffa421', '#00d182']), legend=alt.Legend(title="Tipo")),
             xOffset = 'Tipo:N',
             tooltip = ['Sentimento', 'Tipo', 'Quantidade']
         )
