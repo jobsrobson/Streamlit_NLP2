@@ -16,7 +16,7 @@ st.set_page_config(page_title='Análise de Sentimentos de Tweets', layout='wide'
 
 
 # Downloads e configurações iniciais
-nltk.download('punkt')
+# nltk.download('punkt')
 analyzer = SentimentIntensityAnalyzer()
 
 
