@@ -56,7 +56,7 @@ def show_library_info():
 
 
 # SIDEBAR
-st.sidebar.title('💭Comparativo de Ferramentas de Sentimento')
+st.sidebar.title('💭Comparativo de Bibliotecas de Análise de Sentimento')
 st.sidebar.caption(
     "Avaliação e comparação entre bibliotecas Python de análise de sentimentos "
     "em tweets reais sobre companhias aéreas americanas. Explore os resultados, "
